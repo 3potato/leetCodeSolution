@@ -53,6 +53,7 @@
 447. Number of Boomerangs
 149. Max Points on a Line
 ```
+
 ##### 219 Contains Duplicate II
 ```
 217. Contains Duplicate
