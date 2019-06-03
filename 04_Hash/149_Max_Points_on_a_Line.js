@@ -2,6 +2,11 @@
  * @param {number[][]} points
  * @return {number}
  */
-var numberOfBoomerangs = function(points) {
+var maxPoints = function(points) {
+
+
+
+
+
 
 };

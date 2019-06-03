@@ -1,7 +1,6 @@
 # leetcode
 
 #### Array
-
 ##### 二分查找法 Binary Search
 ##### 283. Move Zeros
 ```
@@ -9,13 +8,11 @@
 26 Remove Duplicated from Sorted Array
 80 Remove Duplicated from Sorted Array II
 ```
-
 ##### 75 Sort Colors
 ```
 88 Merge Sorted Array
 215 Kth Largest Element in an Array
 ```
-
 ##### 167 Two Sum II - Input array is sorted
 ```
 125 Valid Palindrome
@@ -23,7 +20,6 @@
 345 Reverse Vowels of a String
 11 Container With Most Water
 ```
-
 ##### 209 Minimum Size Subarray Sum
 ##### 3 Longest Substring Without Repeating Characters
 ```
@@ -42,7 +38,6 @@
 205. Isomorphic Strings
 451 Sort Characters By Frequency
 ```
-
 ##### 1. Two Sum
 ```
 15. 3Sum
@@ -51,9 +46,8 @@
 454. 4Sum II
 49. Group Anagrams
 447. Number of Boomerangs
-149. Max Points on a Line
+149. Max Points on a Line   （todo）
 ```
-
 ##### 219 Contains Duplicate II
 ```
 217. Contains Duplicate
@@ -97,27 +91,23 @@
 150. Evaluate Reverse Polish Notation
 71. Simplify Path
 ```
-
 ##### 144. Binary Tree Preorder Traversal
 ```
 94. Binary Tree Inorder Traversal
 145. Binary Tree Postorder Traversal
 341. Flatten Nested List Iterator
 ```
-
 ##### 102. Binary Tree Level Order Traversal
 ```
 107. Binary Tree Level Order Traversal II
 103. Binary Tree Zigzag Level Order Traversal
 199. Binary Tree Right Side View
 ```
-
 ##### 279. Perfect Squares
 ```
 127. Word Ladder
 126. Word Ladder II
 ```
-
 ##### 347. Top K Frequent Elements
 ```
 23. Merge k Sorted Lists
