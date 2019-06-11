@@ -55,7 +55,7 @@
 ##### 220. Contains Duplicate III
 
 
-#### Link
+#### Linked List
 ##### 206. Reverse Linked List
 ```
 92. Reverse Linked List II
@@ -95,7 +95,7 @@
 ```
 94. Binary Tree Inorder Traversal
 145. Binary Tree Postorder Traversal
-341. Flatten Nested List Iterator
+341. Flatten Nested List Iterator    （todo）
 ```
 ##### 102. Binary Tree Level Order Traversal
 ```
