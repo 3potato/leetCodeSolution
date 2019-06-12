@@ -95,7 +95,7 @@
 ```
 94. Binary Tree Inorder Traversal
 145. Binary Tree Postorder Traversal
-341. Flatten Nested List Iterator    （todo）
+341. Flatten Nested List Iterator   
 ```
 ##### 102. Binary Tree Level Order Traversal
 ```

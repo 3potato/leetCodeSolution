@@ -29,7 +29,7 @@
  * @param {NestedInteger[]} nestedList
  */
 var NestedIterator = function(nestedList) {
-
+    this.list = nestedList
 };
 
 
@@ -38,7 +38,15 @@ var NestedIterator = function(nestedList) {
  * @returns {boolean}
  */
 NestedIterator.prototype.hasNext = function() {
-
+    while (this.list.length != 0){
+        if (this.list[0].isInteger()){
+            return true
+        }else {
+            let cur = this.list[0].getList()
+            this.list.shift()
+            this.list.unshift(...cur)
+        }
+    }
 };
 
 /**
@@ -46,7 +54,7 @@ NestedIterator.prototype.hasNext = function() {
  * @returns {integer}
  */
 NestedIterator.prototype.next = function() {
-
+    return this.list.shift().getInteger()
 };
 
 /**
