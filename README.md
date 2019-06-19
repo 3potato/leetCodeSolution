@@ -130,7 +130,6 @@
 
 ##### 112. Path Sum
 ```
-111. Minimum Depth of Binary Tree
 404. Sum of Left Leaves
 ```
 
