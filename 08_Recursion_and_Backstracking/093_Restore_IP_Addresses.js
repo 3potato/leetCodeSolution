@@ -1,33 +1,27 @@
 /**
- * @param {string} digits
+ * @param {string} s
  * @return {string[]}
  */
-let res = []
-let getCombinations = function (digits, index, alp) {
-    let map = [
-        " ",    //0
-        "",     //1
-        "abc",  //2
-        "def",  //3
-        "ghi",  //4
-        "jkl",  //5
-        "mno",  //6
-        "pqrs", //7
-        "tuv",  //8
-        "wxyz"  //9
-    ]
-    if (index > digits.length - 1){
-        return res.push(alp)
+var res = []
+var getIpAddresses = function(s, path, count) {
+    if (count == 5 || s.length == 0){
+        if (count == 5 && s.length == 0){
+            res.push(path.substring(1))
+        }
+        return
     }
-    for (var i = 0; i < map[digits[index]].length; i++) {
-        let digit = map[digits[index]][i];
-        getCombinations(digits, index + 1, alp + digit)
+    for (var i = 1; i < 4 && i <= s.length; i++) {
+        let part = s.substring(0, i)
+        if (part <= 255){
+            getIpAddresses(s.substring(i), path + '.' + part, count + 1)
+        }
+        if (part == 0){
+            break
+        }
     }
-}
-
-var letterCombinations = function(digits) {
-    if (digits == '') return []
+};
+var restoreIpAddresses = function(s) {
     res = []
-    getCombinations(digits, 0, '')
+    getIpAddresses(s, '', 1)
     return res
 };
