@@ -159,7 +159,7 @@
 
 ##### 46. Permutations
 ```
-47. Permutations II
+47. Permutations II   （todo）
 ```
 
 ##### 77. Combinations
