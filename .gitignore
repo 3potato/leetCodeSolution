@@ -1,1 +1,4 @@
 .idea
+.idea*
+coding*
+.DS_Store
