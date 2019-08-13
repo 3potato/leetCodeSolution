@@ -218,10 +218,9 @@
 ```
 
 ##### 300. Longest Increasing Subsequence
+##### Longest Common Sequence (LCS)
 ```
 376. Wiggle Subsequence
-Longest Common Sequence (LCS)
-300. Longest Increasing Subsequence
 ```
 
 
