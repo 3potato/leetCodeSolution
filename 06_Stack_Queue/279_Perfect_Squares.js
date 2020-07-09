@@ -39,7 +39,7 @@ var numSquares = function(n) {
 
 // 208 ms   BFS
 var numSquares = function(n) {
-    let queue = new Array();
+    let queue = new Array()
     let visit = new Array()
     queue.push({val: n, step: 0})
     visit[n] = true

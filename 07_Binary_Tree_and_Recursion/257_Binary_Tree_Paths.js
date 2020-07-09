@@ -20,7 +20,8 @@ var binaryTreePaths = function(root) {
     let right = binaryTreePaths(root.right)
     for (let item of left) {
         res.push(root.val + '->' + item)
-    }for (let item of right) {
+    }
+    for (let item of right) {
         res.push(root.val + '->' + item)
     }
     return res

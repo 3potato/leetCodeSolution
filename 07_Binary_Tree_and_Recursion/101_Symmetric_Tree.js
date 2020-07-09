@@ -16,10 +16,6 @@ var isSymmetric = function(root) {
     return isSameTree(root.left, root.right)
 };
 
-var swap = function (root, a, b) {
-    root.left = b
-    root.right = a
-}
 var invertTree = function(root) {
     if (root) {
         let right = root.right

@@ -1,6 +1,6 @@
 # leetcode
 
-#### Array
+#### Array   17
 ##### 二分查找法 Binary Search
 ##### 283. Move Zeros
 ```
@@ -11,7 +11,7 @@
 ##### 75 Sort Colors
 ```
 88 Merge Sorted Array
-215 Kth Largest Element in an Array * 
+215 Kth Largest Element in an Array 
 ```
 ##### 167 Two Sum II - Input array is sorted
 ```
@@ -20,42 +20,43 @@
 345 Reverse Vowels of a String
 11 Container With Most Water
 ```
-##### 209 Minimum Size Subarray Sum  * 
+##### 209 Minimum Size Subarray Sum  
 ##### 3 Longest Substring Without Repeating Characters
 ```
-438 Find All Anagrams in a String * 
-76 Minimum Window Substring * 
+438 Find All Anagrams in a String 
+76 Minimum Window Substring 
 ```
 
 
-#### Hash
+#### Hash   18
 ##### 349. Intersection of Two Arrays
 ##### 350. Intersection of Two Arrays
 ```
 242. Valid Anagram
 202. Happy Number
-290. Word Pattern *
+290. Word Pattern 
 205. Isomorphic Strings
-451. Sort Characters By Frequency *
+451. Sort Characters By Frequency 
 ```
 ##### 1. Two Sum
 ```
 15. 3Sum
-18. 4Sum *
-16. 3Sum Closest *
+18. 4Sum 
+16. 3Sum Closest 
 454. 4Sum II
 49. Group Anagrams
-447. Number of Boomerangs *
+447. Number of Boomerangs 
 149. Max Points on a Line   （todo）
 ```
 ##### 219 Contains Duplicate II
 ```
 217. Contains Duplicate
 ```
-##### 220. Contains Duplicate III *
+##### 220. Contains Duplicate III 
 
 
-#### Linked List
+
+#### Linked List   19
 ##### 206. Reverse Linked List
 ```
 92. Reverse Linked List II
@@ -85,7 +86,7 @@
 ```
 
 
-#### Stack and Queue
+#### Stack and Queue   16
 ##### 20. Valid Parentheses
 ```
 150. Evaluate Reverse Polish Notation
@@ -114,7 +115,7 @@
 ```
 
 
-#### Binary Tree and Recursion
+#### Binary Tree and Recursion   19
 ##### 104. Maximum Depth of Binary Tree
 ```
 111. Minimum Depth of Binary Tree
@@ -150,7 +151,7 @@
 ```
 
 
-#### Recursion and Backstracking
+#### Recursion and Backstracking   19
 ##### 17. Letter Combinations of a Phone Number
 ```
 93. Restore IP Addresses
@@ -159,7 +160,7 @@
 
 ##### 46. Permutations
 ```
-47. Permutations II
+47. Permutations II *
 ```
 
 ##### 77. Combinations
@@ -186,7 +187,7 @@
 ```
 
 
-#### Dynamic Programming
+#### Dynamic Programming   8
 ##### 斐波那契数列列 Fibonacci Sequence
 ##### 70. Climbing Stairs
 ```
@@ -224,7 +225,7 @@
 ```
 
 
-#### Greedy
+#### Greedy   3
 ##### 455. Assign Cookies
 ```
 392. Is Subsequence

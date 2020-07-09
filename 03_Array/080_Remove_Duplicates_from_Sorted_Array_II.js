@@ -17,9 +17,6 @@ var removeDuplicates = function(nums) {
             if (count == 1){
                 k++
                 count = 2
-                if(k != i){
-                    nums[k] = nums[i]
-                }
             }
         }
     }
