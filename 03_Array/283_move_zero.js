@@ -51,3 +51,19 @@ let moveZeroes = function (nums) {
     }
 };
 
+
+// 结果错误 非0的数字顺序不对
+let moveZeroes = function (nums) {
+    let i = 0
+    let j = nums.length - 1
+    while (i < j){
+        if(nums[i] == 0) {
+            while (nums[j] == 0){
+                j--
+            }
+            swap(nums, i, j)
+        }
+        i++
+    }
+};
+
